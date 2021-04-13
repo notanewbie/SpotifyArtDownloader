@@ -6,7 +6,7 @@ def returnURL(url):
     return returned
 
 
-def get_photo():
+def get_playlist_cover():
     inputted_URL = input("Enter the URL of a playlist you would like to download the playlist cover for:\n")
 
     caught = str(returnURL(inputted_URL))
@@ -16,6 +16,6 @@ def get_photo():
 
 
 if __name__ == '__main__':
-    print("\n-----------------\n\n\n" + get_photo() + "\n\n")
+    print("\n-----------------\n\n\n" + get_playlist_cover() + "\n\n")
 
     input("-----------------\n\nPress enter to exit the program.\n")
